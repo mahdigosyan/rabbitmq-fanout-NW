@@ -11,6 +11,7 @@ async function receiveMsg() {
         if(msg.content){
             console.log(msg.content.toString());
             // channel.ack(msg)
+            //akp/lis
         }
     })
 }
