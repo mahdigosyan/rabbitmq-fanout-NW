@@ -17,6 +17,7 @@ const types = {
   Z: {label: 'null', check: _ => _ == null}
 }
 
+
 function addSchema (schema, arity) {
   const group = arity[schema.length] = arity[schema.length] || []
   if (group.indexOf(schema) === -1) group.push(schema)
